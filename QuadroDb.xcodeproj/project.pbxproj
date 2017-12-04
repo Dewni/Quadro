@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD44FDE21FD581E9008021A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44FDE11FD581E9008021A6 /* AppDelegate.swift */; };
+		DD44FDE41FD581E9008021A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44FDE31FD581E9008021A6 /* ViewController.swift */; };
+		DD44FDE71FD581E9008021A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD44FDE51FD581E9008021A6 /* Main.storyboard */; };
+		DD44FDE91FD581E9008021A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD44FDE81FD581E9008021A6 /* Assets.xcassets */; };
+		DD44FDEC1FD581E9008021A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD44FDEA1FD581E9008021A6 /* LaunchScreen.storyboard */; };
+		DD44FDF71FD581E9008021A6 /* QuadroDbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44FDF61FD581E9008021A6 /* QuadroDbTests.swift */; };
+		DD44FE021FD581E9008021A6 /* QuadroDbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44FE011FD581E9008021A6 /* QuadroDbUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD44FDF31FD581E9008021A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD44FDD61FD581E9008021A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD44FDDD1FD581E9008021A6;
+			remoteInfo = QuadroDb;
+		};
+		DD44FDFE1FD581E9008021A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD44FDD61FD581E9008021A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD44FDDD1FD581E9008021A6;
+			remoteInfo = QuadroDb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD44FDDE1FD581E9008021A6 /* QuadroDb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuadroDb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD44FDE11FD581E9008021A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD44FDE31FD581E9008021A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD44FDE61FD581E9008021A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD44FDE81FD581E9008021A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD44FDEB1FD581E9008021A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD44FDED1FD581E9008021A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD44FDF21FD581E9008021A6 /* QuadroDbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuadroDbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD44FDF61FD581E9008021A6 /* QuadroDbTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadroDbTests.swift; sourceTree = "<group>"; };
+		DD44FDF81FD581E9008021A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD44FDFD1FD581E9008021A6 /* QuadroDbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuadroDbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD44FE011FD581E9008021A6 /* QuadroDbUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadroDbUITests.swift; sourceTree = "<group>"; };
+		DD44FE031FD581E9008021A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD44FDDB1FD581E9008021A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD44FDEF1FD581E9008021A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD44FDFA1FD581E9008021A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD44FDD51FD581E9008021A6 = {
+			isa = PBXGroup;
+			children = (
+				DD44FDE01FD581E9008021A6 /* QuadroDb */,
+				DD44FDF51FD581E9008021A6 /* QuadroDbTests */,
+				DD44FE001FD581E9008021A6 /* QuadroDbUITests */,
+				DD44FDDF1FD581E9008021A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD44FDDF1FD581E9008021A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD44FDDE1FD581E9008021A6 /* QuadroDb.app */,
+				DD44FDF21FD581E9008021A6 /* QuadroDbTests.xctest */,
+				DD44FDFD1FD581E9008021A6 /* QuadroDbUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD44FDE01FD581E9008021A6 /* QuadroDb */ = {
+			isa = PBXGroup;
+			children = (
+				DD44FDE11FD581E9008021A6 /* AppDelegate.swift */,
+				DD44FDE31FD581E9008021A6 /* ViewController.swift */,
+				DD44FDE51FD581E9008021A6 /* Main.storyboard */,
+				DD44FDE81FD581E9008021A6 /* Assets.xcassets */,
+				DD44FDEA1FD581E9008021A6 /* LaunchScreen.storyboard */,
+				DD44FDED1FD581E9008021A6 /* Info.plist */,
+			);
+			path = QuadroDb;
+			sourceTree = "<group>";
+		};
+		DD44FDF51FD581E9008021A6 /* QuadroDbTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD44FDF61FD581E9008021A6 /* QuadroDbTests.swift */,
+				DD44FDF81FD581E9008021A6 /* Info.plist */,
+			);
+			path = QuadroDbTests;
+			sourceTree = "<group>";
+		};
+		DD44FE001FD581E9008021A6 /* QuadroDbUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD44FE011FD581E9008021A6 /* QuadroDbUITests.swift */,
+				DD44FE031FD581E9008021A6 /* Info.plist */,
+			);
+			path = QuadroDbUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD44FDDD1FD581E9008021A6 /* QuadroDb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD44FE061FD581E9008021A6 /* Build configuration list for PBXNativeTarget "QuadroDb" */;
+			buildPhases = (
+				DD44FDDA1FD581E9008021A6 /* Sources */,
+				DD44FDDB1FD581E9008021A6 /* Frameworks */,
+				DD44FDDC1FD581E9008021A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuadroDb;
+			productName = QuadroDb;
+			productReference = DD44FDDE1FD581E9008021A6 /* QuadroDb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD44FDF11FD581E9008021A6 /* QuadroDbTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD44FE091FD581E9008021A6 /* Build configuration list for PBXNativeTarget "QuadroDbTests" */;
+			buildPhases = (
+				DD44FDEE1FD581E9008021A6 /* Sources */,
+				DD44FDEF1FD581E9008021A6 /* Frameworks */,
+				DD44FDF01FD581E9008021A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD44FDF41FD581E9008021A6 /* PBXTargetDependency */,
+			);
+			name = QuadroDbTests;
+			productName = QuadroDbTests;
+			productReference = DD44FDF21FD581E9008021A6 /* QuadroDbTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD44FDFC1FD581E9008021A6 /* QuadroDbUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD44FE0C1FD581E9008021A6 /* Build configuration list for PBXNativeTarget "QuadroDbUITests" */;
+			buildPhases = (
+				DD44FDF91FD581E9008021A6 /* Sources */,
+				DD44FDFA1FD581E9008021A6 /* Frameworks */,
+				DD44FDFB1FD581E9008021A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD44FDFF1FD581E9008021A6 /* PBXTargetDependency */,
+			);
+			name = QuadroDbUITests;
+			productName = QuadroDbUITests;
+			productReference = DD44FDFD1FD581E9008021A6 /* QuadroDbUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD44FDD61FD581E9008021A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Dewni Yasara Weththasinghe";
+				TargetAttributes = {
+					DD44FDDD1FD581E9008021A6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					DD44FDF11FD581E9008021A6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DD44FDDD1FD581E9008021A6;
+					};
+					DD44FDFC1FD581E9008021A6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DD44FDDD1FD581E9008021A6;
+					};
+				};
+			};
+			buildConfigurationList = DD44FDD91FD581E9008021A6 /* Build configuration list for PBXProject "QuadroDb" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD44FDD51FD581E9008021A6;
+			productRefGroup = DD44FDDF1FD581E9008021A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD44FDDD1FD581E9008021A6 /* QuadroDb */,
+				DD44FDF11FD581E9008021A6 /* QuadroDbTests */,
+				DD44FDFC1FD581E9008021A6 /* QuadroDbUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD44FDDC1FD581E9008021A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD44FDEC1FD581E9008021A6 /* LaunchScreen.storyboard in Resources */,
+				DD44FDE91FD581E9008021A6 /* Assets.xcassets in Resources */,
+				DD44FDE71FD581E9008021A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD44FDF01FD581E9008021A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD44FDFB1FD581E9008021A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD44FDDA1FD581E9008021A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD44FDE41FD581E9008021A6 /* ViewController.swift in Sources */,
+				DD44FDE21FD581E9008021A6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD44FDEE1FD581E9008021A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD44FDF71FD581E9008021A6 /* QuadroDbTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD44FDF91FD581E9008021A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD44FE021FD581E9008021A6 /* QuadroDbUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD44FDF41FD581E9008021A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD44FDDD1FD581E9008021A6 /* QuadroDb */;
+			targetProxy = DD44FDF31FD581E9008021A6 /* PBXContainerItemProxy */;
+		};
+		DD44FDFF1FD581E9008021A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD44FDDD1FD581E9008021A6 /* QuadroDb */;
+			targetProxy = DD44FDFE1FD581E9008021A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD44FDE51FD581E9008021A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD44FDE61FD581E9008021A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD44FDEA1FD581E9008021A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD44FDEB1FD581E9008021A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD44FE041FD581E9008021A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD44FE051FD581E9008021A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD44FE071FD581E9008021A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuadroDb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dewni.com.myiosapp.QuadroDb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD44FE081FD581E9008021A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuadroDb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dewni.com.myiosapp.QuadroDb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD44FE0A1FD581E9008021A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuadroDbTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dewni.com.myiosapp.QuadroDbTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuadroDb.app/QuadroDb";
+			};
+			name = Debug;
+		};
+		DD44FE0B1FD581E9008021A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuadroDbTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dewni.com.myiosapp.QuadroDbTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuadroDb.app/QuadroDb";
+			};
+			name = Release;
+		};
+		DD44FE0D1FD581E9008021A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuadroDbUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dewni.com.myiosapp.QuadroDbUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuadroDb;
+			};
+			name = Debug;
+		};
+		DD44FE0E1FD581E9008021A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuadroDbUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dewni.com.myiosapp.QuadroDbUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuadroDb;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD44FDD91FD581E9008021A6 /* Build configuration list for PBXProject "QuadroDb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD44FE041FD581E9008021A6 /* Debug */,
+				DD44FE051FD581E9008021A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD44FE061FD581E9008021A6 /* Build configuration list for PBXNativeTarget "QuadroDb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD44FE071FD581E9008021A6 /* Debug */,
+				DD44FE081FD581E9008021A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD44FE091FD581E9008021A6 /* Build configuration list for PBXNativeTarget "QuadroDbTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD44FE0A1FD581E9008021A6 /* Debug */,
+				DD44FE0B1FD581E9008021A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD44FE0C1FD581E9008021A6 /* Build configuration list for PBXNativeTarget "QuadroDbUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD44FE0D1FD581E9008021A6 /* Debug */,
+				DD44FE0E1FD581E9008021A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD44FDD61FD581E9008021A6 /* Project object */;
+}
