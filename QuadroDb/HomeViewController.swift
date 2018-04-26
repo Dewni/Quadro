@@ -1,14 +1,14 @@
 //
-//  LoginViewController.swift
+//  HomeViewController.swift
 //  QuadroDb
 //
-//  Created by Dewni Yasara Weththasinghe on 12/17/17.
+//  Created by Dewni Yasara Weththasinghe on 12/22/17.
 //  Copyright © 2017 Dewni Yasara Weththasinghe. All rights reserved.
 //
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

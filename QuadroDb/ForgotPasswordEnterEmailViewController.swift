@@ -1,5 +1,5 @@
 //
-//  LoginViewController.swift
+//  ForgotPasswordEnterEmailViewController.swift
 //  QuadroDb
 //
 //  Created by Dewni Yasara Weththasinghe on 12/17/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class ForgotPasswordEnterEmailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

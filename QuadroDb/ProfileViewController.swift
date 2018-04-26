@@ -1,14 +1,14 @@
 //
-//  WelcomeViewController.swift
+//  ProfileViewController.swift
 //  QuadroDb
 //
-//  Created by Dewni Yasara Weththasinghe on 12/16/17.
+//  Created by Dewni Yasara Weththasinghe on 12/17/17.
 //  Copyright © 2017 Dewni Yasara Weththasinghe. All rights reserved.
 //
 
 import UIKit
 
-class WelcomeViewController: UIViewController {
+class ProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

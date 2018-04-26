@@ -1,14 +1,14 @@
 //
-//  LoginViewController.swift
+//  EnterKeyViewController.swift
 //  QuadroDb
 //
-//  Created by Dewni Yasara Weththasinghe on 12/17/17.
-//  Copyright © 2017 Dewni Yasara Weththasinghe. All rights reserved.
+//  Created by Dewni Yasara Weththasinghe on 1/29/18.
+//  Copyright © 2018 Dewni Yasara Weththasinghe. All rights reserved.
 //
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class EnterKeyViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
